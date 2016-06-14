@@ -1,0 +1,76 @@
+<div class="container-fluid hidden-xs upper-header">
+    <div class="row">
+        <div class="col-xs-6">
+            <a class="newsletter" href="#/contact">
+                    Sign up for the newsletter
+                </a>
+        </div>
+        <div class="col-xs-6">
+            <ul class="social-icons pull-right">
+                <li>
+                    <a href="https://www.facebook.com/TheMonkees/">
+                        <i class="fa fa-facebook-official"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/TheMonkees?lang=en-gb">
+                        <i class="fa fa-twitter-square"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/results?search_query=monkees">
+                        <i class="fa fa-youtube-square"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<nav class="navbar navbar-default" ng-controller="NavController">
+    <div class="container-fluid">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#/home">THE MONKEES</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="main-nav">
+            <ul class="nav navbar-nav navbar-right page-nav">
+                <li ng-class="{active: isActive('/home')}"><a href="#/home">Home</a></li>
+                <li ng-class="{active: isActive('/bio')}"><a href="#/bio">Bio</a></li>
+                <li ng-class="{active: isActive('/media')}"><a href="#/media">Media</a></li>
+                <li ng-class="{active: isActive('/gigs')}"><a href="#/gigs">Gigs & Booking</a></li>
+                <li ng-class="{active: isActive('/contact')}"><a href="#/contact">Contact</a></li>
+            </ul>
+            <ul class="nav navbar-nav hidden-sm hidden-md hidden-lg">
+                <li>
+                    <a href="https://www.facebook.com/TheMonkees/">
+                        <i class="fa fa-facebook-official"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/TheMonkees?lang=en-gb">
+                        <i class="fa fa-twitter-square"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/results?search_query=monkees">
+                        <i class="fa fa-youtube-square"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="newsletter" href="#/contact">
+                        Sign up for the newsletter
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+</nav>

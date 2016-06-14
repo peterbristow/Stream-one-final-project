@@ -1,0 +1,15 @@
+{
+    "images": [{
+        "url": "img/cover1.jpg",
+        "thumbUrl": "img/cover1.jpg",
+        "alt": "cover1"
+    }, {
+        "url": "img/cover2.png",
+        "thumbUrl": "img/cover2.png",
+        "alt": "cover2"
+    }, {
+        "url": "img/cover3.jpg",
+        "thumbUrl": "img/cover3.jpg",
+        "alt": "cover3"
+    }]
+}

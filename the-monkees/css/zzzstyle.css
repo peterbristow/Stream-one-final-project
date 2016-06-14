@@ -1,0 +1,384 @@
+/* ************** */
+/* GENERAL STYLES */
+/* ************** */
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+h2 {
+    font-size: 1.2em;
+}
+
+h3 {
+    font-size: 1.0em;
+}
+
+a {
+    color: #333333;
+}
+
+.clear-right {
+    clear: right;
+}
+
+.clear-left {
+    clear: left;
+}
+
+
+/* ************************** */
+/* TEMPLATES - GENERAL STYLES */
+/* ************************** */
+.bio, .media, .gig, .contact {
+    background: #7d7d7d url('../img/monkees-bg-op50.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: 0 75px;
+}
+
+.header-upper {
+    height: 25px;
+    width: 100%;
+    background-color: #333333;
+}
+
+.header-upper .social-icon {
+    margin-top: 1px;
+    margin-right: 5px;
+    height: 15px;
+}
+
+.header-upper .social-icon img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    opacity: 0.5;
+}
+
+.header-upper .sign-up {
+    background-color: #7d7d7d;
+    height: 20px;
+    margin-top: 3px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 2px;
+    color: #fff2e6;
+    font-size: 0.9em;
+}
+
+.navbar {
+    background-color: #666666;
+    border-radius: 0px;
+    margin-bottom: 0;
+}
+
+.navbar-brand:hover {
+    color: #eeeeee;
+}
+
+.nav-pills {
+    margin-top: 0.5%;
+}
+
+header.page-heading-block {
+    background: url('../img/bg-op75.png') repeat;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+header.page-heading-block h1 {
+    line-height: 50px;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: #333333;
+    margin-bottom: 1%;
+    padding: 1%;
+    color: #666666;
+}
+
+
+/* **************** */
+/* HOME PAGE STYLES */
+/* **************** */
+/*
+.home {
+    background: #7d7d7d url('../img/monkees-bg-op50.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: 0 0;
+}
+
+.home-social-icons {
+    padding: 0;
+}
+
+.home-social-icons a img {
+    margin-top: 15px;
+    margin-left: 5px;
+    -webkit-filter: sepia(100%);
+    filter: sepia(100%);
+    opacity: 0.5;
+}
+
+.home .home-row {
+    margin-top: 22%;
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 1%;
+}
+
+.home .home-nav {
+    padding-left: 0;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.home .home-nav li {
+    display: inline;
+}
+
+
+.home .home-nav a {
+    text-decoration: none;
+}
+
+.home .showcase-audio-skin, .media .audio-skin {
+    background: url('../img/bg-op75.png') repeat;
+    width: 322px;
+    border: 1px solid #666666;
+    border-radius: 5px;
+    padding: 10px 10px 5px 10px;
+    margin-top: 4%;
+    margin-bottom: 6%;
+}
+*/
+
+/* *************** */
+/* BIO PAGE STYLES */
+/* *************** */
+.bio .item-row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.bio .item {
+    background: url('../img/bg-op75.png') repeat;
+    width: 47%;
+    margin: 0 1% 2% 1%;
+    padding: 1%;
+    text-align: justify;
+}
+
+.bio .item img {
+    width: 213px;
+    height: 160px;
+}
+
+.bio img.pull-left {
+    margin-right: 2%;
+}
+
+.bio img.pull-right {
+    margin-left: 2%;
+}
+
+.bio .item h2 {
+    margin-bottom: 1.1%;
+}
+
+.bio .item p {
+    margin-bottom: 0;
+}
+
+
+/* ***************** */
+/* MEDIA PAGE STYLES */
+/* ***************** */
+.media {
+    margin-top: 0;
+}
+
+.media .page-heading-block h1, .media .page-heading-block img {
+    display: inline;
+}
+
+.media .page-heading-block img {
+    background-color: red;
+    margin: 10px 1% 0 -8%;
+    opacity: 0.8;
+    border-radius: 3px;
+}
+
+.media .showcase-audio-skin, .media .audio-skin {
+    background: url('../img/bg-op75.png') repeat;
+    width: 322px;
+    border: 1px solid #666666;
+    border-radius: 5px;
+    padding: 10px 10px 5px 10px;
+    margin-bottom: 2%;
+}
+
+.audio-item-row, .video-item-row, .img-item-row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.media .audio-skin {
+    margin: 0 1% 2% 1%;
+}
+
+video {
+    width: 305px; 
+    height: 200px;  
+    background: transparent url('../img/cover2.png') no-repeat 0 0; 
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover; 
+    background-size: cover; 
+    margin: 0 15px 0 15px;
+}
+
+.img-item-row .item {
+    margin: 0 1% 2% 1%;
+}
+
+
+/* *************** */
+/* GIG PAGE STYLES */
+/* *************** */
+.gig-row {
+    background: url('../img/bg-op75.png') repeat;
+    padding-top: 2%;
+}
+
+.page-nav {
+    margin-bottom: 2%;
+    font-size: 1.2em;
+}
+
+.page-nav .glyphicon {
+    top :2px;
+}
+
+.gig-item-row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gig-item {
+    width: 25%;
+    margin: 0 0 2% 2%;
+    height: 8%;
+    color: #666666;
+}
+
+.gig-date {
+    text-align: center;
+    padding: 0.5%;
+}
+
+.gig-day {
+    font-size: 4.1em;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+.gig-month {
+    font-size: 2em;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.gig-place {
+    padding-left: 2%;
+    height: 80px;
+    width: 78%;
+    overflow: hidden;
+}
+
+.gig-venue {
+    font-size: 1.15em;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 25px;
+}
+
+.gig-location {
+    font-size: 1em;
+    line-height: 18px;
+}
+
+.gig h2 {
+    margin-bottom: 0.5%;
+}
+
+.gig table tr th:nth-child(2), .gig table tr td:nth-child(2) {
+    text-align: center;
+}
+
+
+/* ******************* */
+/* CONTACT PAGE STYLES */
+/* ******************* */
+.contact-row {
+    background: url('../img/bg-op75.png') repeat;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-bottom: 2%;
+}
+
+.contact h2 {
+    margin-bottom: 0.5%;
+}
+
+.contact .labl {
+    padding-top: 0.8%;
+}
+
+.contact .buttn {
+    margin-right: -0.75%;
+}
+
+.contact-form .row {
+    margin-bottom: 2%;
+}
+
+.contact .error-row {
+    margin-top: 0.5%;
+    margin-left: 1.2%;
+    color: red;
+}
+
+input.ng-valid, textarea.ng-valid {
+	border: 1px solid green;
+}
+
+.contact input.ng-invalid.ng-submitted {
+  border: 1px solid red;
+}

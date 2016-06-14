@@ -1,0 +1,39 @@
+{
+    "gigs": [{
+        "date": "2016-03-01",
+        "venue": "NAME OF THE VENUE",
+        "location": "Location of the venue.<br />Location of the venue.<br />Location of the venue"
+    }, {
+        "date": "2016-03-02",
+        "venue": "NAME OF THE VENUE",
+        "location": "Location of the venue.<br />Location of the venue.<br />Location of the venue"
+    }, {
+        "date": "2016-03-03",
+        "venue": "NAME OF THE VENUE",
+        "location": "Location of the venue.<br />Location of the venue.<br />Location of the venue"
+    }, {
+        "date": "2016-05-10",
+        "venue": "NAME OF THE VENUE",
+        "location": "Location of the venue.<br />Location of the venue.<br />Location of the venue"
+    }, {
+        "date": "2016-05-02",
+        "venue": "NAME OF THE VENUE",
+        "location": "Location of the venue.<br />Location of the venue.<br />Location of the venue"
+    }, {
+        "date": "2016-05-03",
+        "venue": "NAME OF THE VENUE",
+        "location": "Location of the venue.<br />Location of the venue.<br />Location of the venue"
+    }, {
+        "date": "2016-05-08",
+        "venue": "NAME OF THE VENUE",
+        "location": "Location of the venue.<br />Location of the venue.<br />Location of the venue"
+    }, {
+        "date": "2016-05-05",
+        "venue": "NAME OF THE VENUE",
+        "location": "Location of the venue.<br />Location of the venue.<br />Location of the venue"
+    }, {
+        "date": "2016-05-06",
+        "venue": "NAME OF THE VENUE",
+        "location": "Location of the venue.<br />Location of the venue.<br />Location of the venue"
+    }]
+}

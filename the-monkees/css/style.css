@@ -1,0 +1,447 @@
+/* ************ */
+/* MOBILE-FIRST */
+/* ************ */
+
+/* ************** */
+/* GENERAL STYLES */
+/* ************** */
+html, body, .wrapper, .screen-home {
+    height: 100%;
+}
+
+div, header, main, footer {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.screen-home { 
+    min-height: 100%;
+    background: #7d7d7d url('../img/monkees-bg-op50.png') no-repeat center 52px fixed;
+    background-size: cover;
+}
+
+.screen { 
+    background: #7d7d7d url('../img/monkees-bg-op50.png') no-repeat center 52px fixed;
+    background-size: cover;
+    color: #333333;
+}
+
+main {
+    padding-top: 3.5%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+}
+
+.btn.btn-brown {
+    background: #888888;
+    color: #f8f8f8;
+}
+
+.btn.btn-brown:hover {
+    background: #333333;
+    -webkit-transition: background 0.1s ease-in-out;
+    -moz-transition: background 0.1s ease-in-out;
+    -o-transition: background 0.1s ease-in-out;
+    transition: background 0.1s ease-in-out; 
+}
+
+/*remove bootstrap button glow*/
+.btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
+    outline: none;
+}
+
+audio { width: 100%; }
+
+/* ************* */
+/* HEADER STYLES */
+/* ************* */
+.navbar-default {
+    border-radius: 0px;
+    margin-bottom: 0;
+}
+
+i.fa {
+    font-size: 20px;
+}
+
+#main-nav li {
+    text-align: center;
+}
+
+#main-nav li:hover {
+    background-color: #e7e7e7;
+}
+
+.page-nav li {
+    border-bottom: 1px solid #e7e7e7;
+}
+
+
+/* ************* */
+/* FOOTER STYLES */
+/* ************* */
+footer {
+    background-color: #888888;
+    padding: 10px 20px 30px 20px;
+    color: #f8f8f8;
+}
+    
+
+/* **************** */
+/* HOME PAGE STYLES */
+/* **************** */
+.home .band-name {
+    text-align: center;
+}
+
+.home .band-name h1 {
+    margin-top: 30%;
+    font-size: 3.75em;
+    color: #e7e7e7;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px #888888;
+}
+
+
+/* *************** */
+/* BIO PAGE STYLES */
+/* *************** */
+.bio .item-row1 {
+    background: url('../img/dj.png') no-repeat left top;
+}
+
+.bio .item-row2 {
+    background: url('../img/mn.png') no-repeat right top;
+}
+
+.bio .item-row3 {
+    background: url('../img/md.png') no-repeat left top;
+}
+
+.bio .item-row4 {
+    background: url('../img/pt.png') no-repeat right top;
+}
+
+.bio .item-row {
+    min-height: 275px;
+    margin-bottom: 20px;
+    box-shadow:1px 1px 5px #888888;
+}
+
+.bio .item {
+    min-height: 275px;
+    padding: 5% 15px 5px 15px;
+}
+
+.bio .item-left {
+    background: linear-gradient(to right, rgba(238,238,238,0.5) 10%, rgba(238,238,238,0.7) 100%);
+    text-align: right;
+}
+
+.bio .item-right {
+    background: linear-gradient(to left, rgba(238,238,238,0.5) 10%, rgba(238,238,238,0.7) 100%);
+    text-align: left;
+}
+
+.bio .item h2 {
+    margin-bottom: 1%;
+    font-size: 1.4em;
+    text-transform: uppercase;
+}
+
+.bio .item p {
+    line-height: 1.5em;
+    font-size: 1.15em;
+}
+
+
+/* ***************** */
+/* MEDIA PAGE STYLES */
+/* ***************** */
+.media-row {
+    background-color: rgba(238,238,238,0.7);
+    box-shadow:1px 1px 5px #888888;
+    padding: 15px 0px 5px 0px;
+    margin-bottom: 20px;
+}
+
+.audio-showcase {
+    margin-bottom: 20px;
+}
+
+/*.media {
+    margin-top: 0;
+}
+
+.media .page-heading-block h1, .media .page-heading-block img {
+    display: inline;
+}
+
+.media .page-heading-block img {
+    background-color: red;
+    margin: 10px 1% 0 -8%;
+    opacity: 0.8;
+    border-radius: 3px;
+}
+
+.media .showcase-audio-skin, .media .audio-skin {
+    background: url('../img/bg-op75.png') repeat;
+    width: 322px;
+    border: 1px solid #666666;
+    border-radius: 5px;
+    padding: 10px 10px 5px 10px;
+    margin-bottom: 2%;
+}
+
+.audio-item-row, .video-item-row, .img-item-row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.media .audio-skin {
+    margin: 0 1% 2% 1%;
+}
+
+video {
+    width: 305px; 
+    height: 200px;  
+    background: transparent url('../img/cover2.png') no-repeat 0 0; 
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover; 
+    background-size: cover; 
+    margin: 0 15px 0 15px;
+}
+
+.img-item-row .item {
+    margin: 0 1% 2% 1%;
+}
+*/
+
+
+/* *************** */
+/* GIG PAGE STYLES */
+/* *************** */
+
+.gig-row {
+    background-color: rgba(238,238,238,0.7);
+    box-shadow:1px 1px 5px #888888;
+    padding: 15px 0px 5px 0px;
+    margin-bottom: 20px;
+}
+
+.gig-item {
+    margin-bottom: 15px;
+    height: 66px;
+    overflow: hidden;
+}
+
+.gig-date {
+    text-align: center;
+}
+
+p.gig-day {
+    margin-top: -13px;
+    margin-left: -1px;
+    font-size: 3.5em;
+    font-weight: bold;
+}
+
+p.gig-month {
+    font-size: 1.6em;
+    font-weight: bold;
+    margin-top: -48px;
+
+}
+
+.gig-place {
+    padding: 2px 10px 5px 14px;
+}
+
+h3.gig-venue {
+    font-size: 0.9em;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 3px;
+}
+
+p.gig-location {
+    font-size: 0.85em;
+    line-height: 16px;
+}
+
+
+/* ******************* */
+/* CONTACT PAGE STYLES */
+/* ******************* */
+
+.contact-row {
+    background-color: rgba(238,238,238,0.7);
+    padding: 10px 0px 15px 0px;
+    margin-bottom: 20px;
+    box-shadow:1px 1px 5px #888888;
+}
+
+.contact-row input, .contact-row textarea {
+    margin-bottom: 10px;
+}
+
+.contact .error-row {
+    margin-top: -6px;
+    margin-left: 2px;
+    color: #b30000;
+}
+
+
+/* ****************************************** */
+/* STYLES FOR SCREENS WITH MIN-WIDTH OF 768PX */
+/* ****************************************** */
+@media screen and (min-width: 768px){
+    /* ************** */
+    /* GENERAL STYLES */
+    /* ************** */
+    .screen-home, .screen {
+        background-position: center 85px;
+    }
+
+
+    /* ************* */
+    /* HEADER STYLES */
+    /* ************* */
+    .upper-header {
+        background-color: #888888;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        color: #f8f8f8;
+    }
+
+    .upper-header a.newsletter {
+        display: inline-block;
+        margin-top: 7px;
+        color: #f8f8f8;
+    }
+    
+    .upper-header a:hover {
+        text-decoration: none;
+    }
+    
+    .upper-header a.newsletter:link {
+        color: #f8f8f8;
+    }
+    
+    .upper-header a.newsletter:hover {
+        color: #e7e7e7;
+    }
+    
+    .upper-header ul {
+        margin-top: 7px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+    }
+    
+    .upper-header li {
+        margin-right: 10px;
+    }
+    
+    .upper-header i.fa {
+        color: #f8f8f8;
+    }
+    
+    .upper-header i.fa:hover {
+        font-size: 20px;
+        color: #e7e7e7;
+    }
+    
+    .page-nav li {
+        border-bottom: 0px;
+    }
+    
+    .social-icons li {
+        display: inline;
+    }
+    
+    /* ************* */
+    /* FOOTER STYLES */
+    /* ************* */
+    footer {
+        padding: 1% 2% 2.5% 2%;
+    }
+
+
+    /* **************** */
+    /* HOME PAGE STYLES */
+    /* **************** */
+    .home .band-name h1 {
+        margin-top: 12.5%;
+        font-size: 8.5em;
+    }
+
+
+     /***************** */
+     /* BIO PAGE STYLES */
+     /***************** */
+    .bio .item-left {
+        background: linear-gradient(to right, rgba(0,0,0,0) 1%, rgba(238,238,238,0.5) 10%, rgba(238,238,238,0.7) 100%);
+    }
+    
+    .bio .item-right {
+        background: linear-gradient(to left, rgba(0,0,0,0) 1%, rgba(238,238,238,0.5) 10%, rgba(238,238,238,0.7) 100%);
+    }
+    
+    .bio .item-row {
+        margin-bottom: 4%;
+    }
+    
+    .bio .item-row, .bio .item {
+        max-height: 275px;
+    }
+    
+    .bio .item {
+        padding: 3%;
+    }
+    
+    .bio .item h2 {
+        font-size: 1.5em;
+    }
+    
+    .bio .item p {
+        line-height: 1.5em;
+        font-size: 1.2em;
+    }
+    
+    
+    /* ***************** */
+    /* MEDIA PAGE STYLES */
+    /* ***************** */
+
+    
+    
+    /* *************** */
+    /* GIG PAGE STYLES */
+    /* *************** */
+    .gig-row {
+        padding: 2%;
+        margin-bottom: 4%;
+    }
+    
+
+    /* ******************* */
+    /* CONTACT PAGE STYLES */
+    /* ******************* */
+    .contact-row {
+        padding: 2%;
+        margin-bottom: 4%;
+    }
+    
+
+    
+}

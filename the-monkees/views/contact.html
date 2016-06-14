@@ -1,0 +1,104 @@
+<div class="screen">
+    <header ng-include="'views/header.html'"></header>
+    <main class="container-fluid contact">
+        <div class="row">
+            <div class="col-xs-10 col-xs-offset-1">
+                <!--use everything above here in each partial - change line 3 class name for page specific styles-->
+
+
+                <div class="row contact-row">
+                    <div class="col-xs-12">
+                        <h2>Free Newsletter Signup</h2>
+                        <p>We will keep you up to date with our up-coming events and material</p>
+                        <form name="newsletter_form" novalidate ng-submit="submit(newsletter_form)">
+                            <div class="row">
+                                <div class="col-sm-2 col-md-1">
+                                    <label>Email</label>
+                                </div>
+                                <div class="col-sm-5 col-md-6">
+                                    <input class="form-control" type="email" name="email" ng-model="form.email" placeholder="Type your email address" required />
+
+                                    <div class="error-row" ng-show="contact_form.email.$invalid && submitted">
+                                        <p ng-show="newsletter_form.email.$error.required">Please input an email</p>
+                                        <p ng-show="newsletter_form.email.$error.email">Please input a valid email</p>
+                                    </div>
+                                </div>
+                                <div class="hidden-xs col-sm-1 col-md-1">
+                                    <button type="submit" class="btn btn-brown">Submit</button>
+                                </div>
+                            </div>
+                            <div class="row visible-xs-block">
+                                <div class="col-xs-12">
+                                    <button type="submit" class="btn btn-brown pull-right">Submit</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="row contact-row">
+                    <div class="col-xs-12">
+                        <h2>Questions, Bookings & Feedback</h2>
+                        <p>Use this form to ask your questions, make bookings and to give us your feedback</p>
+
+                        <form class='contact-form' name="contact_form" ng-submit="submit(contact_form)" novalidate>
+
+                            <div class="row">
+                                <div class="col-sm-2 col-md-1">
+                                    <label>Name</label>
+                                </div>
+                                <div class="col-sm-10 col-md-11">
+                                    <input class="form-control" type="text" name="uname" ng-model="form.uname" ng-minlength=2 ng-maxlength=50 placeholder="Type your name here" required />
+
+                                    <div class="error-row" ng-show="contact_form.uname.$invalid && submitted">
+                                        <p ng-show="contact_form.uname.$error.required">Please input a name</p>
+                                        <p ng-show="contact_form.uname.$error.minlength">Your name must be at least 2 characters</p>
+                                        <p ng-show="contact_form.uname.$error.maxlength">Your name cannot be longer than 50 characters</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-2 col-md-1">
+                                    <label>Email</label>
+                                </div>
+                                <div class="col-xs-12 col-sm-10 col-md-11">
+                                    <input class="form-control" type="email" name="email" ng-model="form.email" placeholder="Type your email address" required />
+
+                                    <div class="error-row" ng-show="contact_form.email.$invalid && submitted">
+                                        <p ng-show="contact_form.email.$error.required">Please input an email</p>
+                                        <p ng-show="contact_form.email.$error.email">Please input a valid email</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-2 col-md-1">
+                                    <label>Message</label>
+                                </div>
+                                <div class="col-xs-12 col-sm-10 col-md-11">
+                                    <textarea class="form-control" type="text" name="msg" ng-model="form.msg" rows="8" cols="50" placeholder="Type your message here" required>
+                                    </textarea>
+                                    <div class="error-row" ng-show="contact_form.msg.$invalid && submitted">
+                                        <p ng-show="contact_form.msg.$error.required">Please input a message</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <button type="submit" class="btn btn-brown pull-right">Submit</button>
+                                </div>
+                            </div>
+                            
+                        </form>
+                    </div>
+                </div>
+
+
+                <!--use everything below here in each partial-->
+            </div>
+        </div>
+    </main>
+    <footer ng-include="'views/footer.html'"></footer>
+</div>
